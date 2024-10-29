@@ -65,19 +65,21 @@ This document outlines the functional and non-functional requirements for the **
 #### 4. Diagrams and Wireframes
 
 **4.1 Home Screen Wireframe**
-  --- 
-   |         Header           |
-   |--------------------------|
-   | [Essential Shortcut]     |
-   | [Essential Shortcut]     |
-   | [Access to Settings]     |
-   |--------------------------|
-   | [Screen Time Stats]      |
-   | [Blocked Apps]           |
+   -------------------------
+   |      Header           |
+   |-----------------------|
+   |                       |
+   | [Essential Shortcut]  |
+   | [Essential Shortcut]  |   
+   |                       |
+   | [Access to Settings]  |
+   |-----------------------|
+   | [Screen Time Stats]   |
+   | [Blocked Apps]        |
   
 
 **4.2 App Blocker Screen Wireframe**
-------------------------------
+ ----------------------------
 | App Blocker                |
 |----------------------------|
 | [App Name]  [Toggle ON/OFF]|
