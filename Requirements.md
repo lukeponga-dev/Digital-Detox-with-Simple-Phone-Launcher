@@ -65,3 +65,16 @@ This document outlines the functional and non-functional requirements for the **
 #### 4. Diagrams and Wireframes
 
 **4.1 Home Screen Wireframe**
+
+**4.2 App Blocker Screen Wireframe**
+  ------------------------------
+  | App Blocker                |
+  |----------------------------|
+  | [App Name]  [Toggle ON/OFF]|
+  | [App Name]  [Toggle ON/OFF]|
+  |                            |  
+  | [Schedule Blocking]        |
+  |                            |
+  ------------------------------
+  
+**4.3 Screen Time Control Screen Wireframe**
