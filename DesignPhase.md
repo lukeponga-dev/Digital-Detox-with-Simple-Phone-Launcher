@@ -61,9 +61,36 @@ flowchart LR
     E --> F{Confirm}
 ```
 ```mermaid
-flowchart LR
-    A[Home Screen] --> B{Screen Time Control Screen}
-    B --> C{Set Limits}
-    C --> D{Enable Notifications}
-    D --> E{Confirm}
+graph TD
+    A[Setting Up the App]
+    A1[Launch App] --> A2[Welcome Screen]
+    A2 --> A3[Permissions]
+    A3 --> A4[Customization]
+    A4 --> A5[Complete Setup]
+
+    B[Blocking Apps]
+    B1[Home Screen] --> B2[App Blocker Screen]
+    B2 --> B3[Select Apps]
+    B3 --> B4[Set Schedule]
+    B4 --> B5[Confirm]
+
+    C[Enabling Grayscale Mode]
+    C1[Home Screen] --> C2[Settings Screen]
+    C2 --> C3[Grayscale Mode]
+    C3 --> C4[Toggle Grayscale]
+    C4 --> C5[Set Schedule]
+    C5 --> C6[Confirm]
+
+    D[Managing Screen Time]
+    D1[Home Screen] --> D2[Screen Time Control Screen]
+    D2 --> D3[Set Limits]
+    D3 --> D4[Enable Notifications]
+    D4 --> D5[Confirm]
+
+    E[Customizing Blank Spaces]
+    E1[Home Screen] --> E2[Settings Screen]
+    E2 --> E3[Blank Spaces]
+    E3 --> E4[Add/Remove Blank Spaces]
+    E4 --> E5[Customize Layout]
+    E5 --> E6[Confirm]
 ```
