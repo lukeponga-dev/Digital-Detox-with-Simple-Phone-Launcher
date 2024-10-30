@@ -31,10 +31,3 @@
     C --> D{Customization}
     D --> E{Complete Setup}
 ```
-```mermaid
-flowchart LR
-    A[Home Screen] --> B{App Blocker Screen}
-    B --> C{Select Apps}
-    C --> D{Set Schedule}
-    D --> E{Confirm}
-```
